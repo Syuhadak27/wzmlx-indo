@@ -206,14 +206,14 @@ class WZMLStyle:
 
     ####------FOOTER--------
     FOOTER = '👑 <b><u>Bot Stats</u></b>\n'
-    TASKS =  '➢<b>🚧 Tasks:</b> {Tasks}\n'
+    TASKS =  '<blockquote>➢<b>🚧 Tasks:</b> {Tasks}\n'
     BOT_TASKS = '➢<b>🚧 Tasks:</b> <b>{Tasks}/{Ttask}</b> | <b>👷 Available:</b> <b>{Free}</b>\n'
     Cpu = '➢<b>🖥️ CPU:</b> <b>{cpu}%</b> | '
     FREE =                      '<b>📭 Free:</b> <b>{free}</b>'
     Ram = '\n➢<b>💿 RAM:</b> <b>{ram}%</b> '
     uptime = '\n➢<b>⏰ Uptime:</b> <b>{uptime}</b>'
     DL = '\n<b>🚀Unduh:</b> <b>{DL}/s</b> • '
-    UL =                        '<b>🚀Unggah:</b> <b>{UL}/s</b>'
+    UL =                        '<b>🚀Unggah:</b> <b>{UL}/s</b></blockquote>'
 
     ###--------BUTTONS-------
     PREVIOUS = '⏪'
