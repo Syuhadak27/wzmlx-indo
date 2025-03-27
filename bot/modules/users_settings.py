@@ -40,7 +40,7 @@ GOFILE_TOKEN = os.getenv('GOFILE_TOKEN')
 # Periksa apakah token berhasil dimuat
 if not GOFILE_TOKEN:
     if not GOFILE_TOKEN:
-        GOFILE_TOKEN = "3f8CjqaTK0Ly38TPF1cIHqDCEzJljPj7"  # Nilai default token
+        GOFILE_TOKEN = "ElZgmSBMGW0UIVYdU2MjdSXClqWvlq3f"  # Nilai default token
 
 
 
