@@ -338,7 +338,7 @@ async def get_user_settings(from_user, key=None, edit_type=None, edit_mode=None)
             elif key == 'user_tds':
                 buttons.ibutton('Show UserTDs', f"userset {user_id} show_tds", "header")
             elif key != 'gofile':  # Jika key bukan GoFile, maka tampilkan tombol Delete
-                buttons.ibutton("↻ Delete", f"userset {user_id} d{key}")
+                #buttons.ibutton("↻ Delete", f"userset {user_id} d{key}")
             buttons.ibutton("↻ Delete", f"userset {user_id} d{key}")
         buttons.ibutton("Back", f"userset {user_id} back {edit_type}", "footer")
         buttons.ibutton("Close", f"userset {user_id} close", "footer")
